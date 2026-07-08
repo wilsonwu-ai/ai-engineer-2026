@@ -19,6 +19,7 @@
 - [The mistakes that stall people](#the-mistakes-that-stall-people)
 - [Your 90-day plan](#your-90-day-plan)
 - [The real reason this works now](#the-real-reason-this-works-now)
+- [Deep dives](#deep-dives)
 
 ---
 
@@ -390,6 +391,16 @@ A deployed RAG system is not a proxy for competence. It **IS** competence, made 
 That is the whole shift. Not that credentials became worthless, but that proof became directly available. And when proof is available, the people who provide it beat the people who only have the proxy.
 
 So stop waiting for permission. Stop preparing to be ready. Pick the first skill in the stack, open Claude, and build the smallest possible working thing today. Then build a slightly bigger thing tomorrow. In 90 days of that, you will have something no degree can give you, which is proof that you can actually do the job.
+
+---
+
+## Deep Dives
+
+Companion articles for when you're past the basics and want to understand the systems the pros actually argue about:
+
+- **[Your KV Caching Is Broken](deep-dives/your-kv-caching-is-broken.md)** — why redundant computation (not compute) is the real inference bottleneck, and how a modern caching architecture (LMCache + CacheBlend) cuts input-token costs up to 90% and speeds LLM inference up to 14x. This is stack item **#8 (deployment & MLOps)** taken to the frontier — and a genuinely great interview answer.
+
+---
 
 > **The CS degree is optional now.**
 > **The skills are not.**
