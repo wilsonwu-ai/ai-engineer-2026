@@ -36,11 +36,11 @@ The traditional path told you to get the degree, apply through the front door, a
 
 ```mermaid
 flowchart LR
-    subgraph OLD["&#10060; Old path — credential-first"]
+    subgraph OLD["Old path — credential-first"]
         direction LR
         O1["Get the degree"] --> O2["Apply through the front door"] --> O3["Wait for permission"]
     end
-    subgraph NEW["&#9989; New path — proof-first"]
+    subgraph NEW["New path — proof-first"]
         direction LR
         N1["Build the smallest working thing"] --> N2["Break it, fix it, ship it public"] --> N3["Proof gets you found"]
     end
@@ -70,7 +70,7 @@ flowchart LR
         R2["New architectures, papers"]
         R3["Deep math, advanced degree"]
     end
-    subgraph ENG["&#11088; AI Engineer — this job"]
+    subgraph ENG["AI Engineer — this job"]
         E1["Builds WITH existing models"]
         E2["Context, tools, memory, agents"]
         E3["Retrieval, guardrails, deployment"]
@@ -88,21 +88,21 @@ Learn these in sequence. Each one builds on the last. **Skipping ahead is the mo
 
 ```mermaid
 flowchart TD
-    subgraph FOUND["&#129521; Foundations"]
+    subgraph FOUND["Foundations"]
         direction TB
         A["1 &middot; Python<br/>functions, classes, async"]
         B["2 &middot; SQL and data handling"]
         C["3 &middot; Git, command line, Linux"]
         A --> B --> C
     end
-    subgraph APPLIED["&#128268; Applied AI — where it starts"]
+    subgraph APPLIED["Applied AI — where it starts"]
         direction TB
         D["4 &middot; REST and LLM API integration"]
         E["5 &middot; Embeddings and vector search"]
         F["6 &middot; RAG, built end to end"]
         D --> E --> F
     end
-    subgraph FRONTIER["&#129302; Frontier and shipping"]
+    subgraph FRONTIER["Frontier and shipping"]
         direction TB
         G["7 &middot; Agent frameworks and tool use"]
         H["8 &middot; Deployment and basic MLOps"]
