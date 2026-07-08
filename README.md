@@ -396,8 +396,9 @@ So stop waiting for permission. Stop preparing to be ready. Pick the first skill
 
 ## Deep Dives
 
-Companion articles for when you're past the basics and want to understand the systems the pros actually argue about:
+Companion pieces — a concrete roadmap to start, and a deep dive for when you're past the basics:
 
+- **[Zero to Hireable AI Engineer in 4 Months](roadmaps/zero-to-ai-engineer-4-months.md)** — the month-by-month operational roadmap: exactly what to learn and build each week, from the plumbing (Month 1) to your first paid gig (Month 4).
 - **[Your KV Caching Is Broken](deep-dives/your-kv-caching-is-broken.md)** — why redundant computation (not compute) is the real inference bottleneck, and how a modern caching architecture (LMCache + CacheBlend) cuts input-token costs up to 90% and speeds LLM inference up to 14x. This is stack item **#8 (deployment & MLOps)** taken to the frontier — and a genuinely great interview answer.
 
 ---
